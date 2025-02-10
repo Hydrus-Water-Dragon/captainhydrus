@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<title>Web Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+    }
+    .header{
+        padding: 90px;
+        text-align: center;
+        background-image: url(background.jpg);
+        color:hsl(0, 0%, 0%);
+    }
+    .header h1{
+        font-size: 40px;
+    }
+        .navbar{
+            overflow: hidden;
+            background-color: #323131;
+        }
+    
+    .navbar a{
+        float: left;
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+    .navbar a.right{
+        float: right;
+    }
+    .navbar a:hover{
+        background-color: #ddd;
+        color: #fbfbfb;
+    }
+    .row{
+        display: -ms-flexbox;/*IE10*/
+        display: flex;
+        -ms-flex-wrap: wrap;/*IE10*/
+        flex-wrap: wrap;
+    }
+    .side{
+        -ms-flex: 30%;/*IE10*/
+        flex: 30%;
+        background-color: #6e6e6e;
+        padding: 20px;
+    }
+    .main{
+        -ms-flex: 70%;/*IE10*/
+        flex: 70%;
+        background-color: rgb(142, 142, 142);
+        padding: 20px;
+    }
+    .fakeimg{
+        background-color: #525252;
+        width: 100%;
+        padding: 20px;
+    }
+    .footer{
+        padding: 20px;
+        text-align: center;
+        background-image: url(background.jpg);
+    }
+
+    @media screen and(max-width:700px){
+        .row{flex-direction: column;
+        }
+    }
+    @media screen and(max-width:400px){
+        .navbar a{
+            float: none;
+            width: 100%;
+        }
+    }
+</style>
+    </head>
+    <body>
+        <div class="header">
+        <h1>Welcome to My Webpage</h1>
+        <p>Made:by Justine M. canlas</p>
+        </div>
+        <div class="navbar">
+            <a href="https://www.facebook.com/justine.canlas.397">Facebook</a>
+            <a href="https://youtu.be/dQw4w9WgXcQ">trol</a>
+            <a href="https://github.com/Hydrus-Water-Dragon">Github</a>
+            <a href="schoolrefer.htm">Previous Schools</a>
+            <a href="https://www.cfsi-education.com/cfsi-sto-tomas">my School</a>
+            <a href="11ictsched.html">my schedule</a>
+            <a href="lyricsaudio.htm" class="right">lyric</a>
+            <a href="game 2.html" class="right">tetris</a>
+            <a href="pretest.html" class="right">Calculator</a>
+            <a href="GStopwatch.html" class="right">Stopwatch</a>
+        </div>
+        <div class="row">
+            <div class="side">
+                <h2>About me</h2>
+                <div class="=fakeimg" style="height: 200px;">
+                    <img src="me.jpg" width="200" height="200">
+                </div>
+                <p>my name is Justine M. canlas currently<br> on 11th grade TVL-ICT</p>
+                <h3>Male / age 17</h3>
+                <p>Referral links of convience</p>
+                <div class="fakeimg" style="height: 60px;"><A href="https://mimo.org/">Quiz and learn about coding</A></div><br>
+                <div class="fakeimg" style="height: 60px;"><A href="https://stackoverflow.com/">Stack Overflow</A></div><br>
+                <div class="fakeimg" style="height: 60px;"><A href="https://www.theverge.com/"> The Verge</A></div><br>
+                <div class="fakeimg" style="height: 60px;"><A href="https://www.w3schools.com/">Learn to code</A></div>
+                </div>
+                <div class="main">
+                    <h2> TITLE HEADING</h2>
+                    <h5>Title desc jan 23</h5>
+                    <div class="fakeimg" 
+                style="height: 200px;"> <img src="fam.jpg" width="390" height="175"></div>
+                <p>some text</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                       with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                <br>
+                <h2> insert title heading here</h2>
+                <h5>title desc here sep 2 2017</h5>
+                <div class="fakeimg" 
+                style="height: 250px;">
+                <img src="backgroundmark2.jpg" width="390" height="200"></div>
+                <p>some text</p>
+                <p>aIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                     The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                      Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                     Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                </div>
+        </div>
+        <div class="footer"><h2>footer</h2></div>
+        </div>
+    </body>
+</html>
